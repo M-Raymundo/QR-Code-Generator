@@ -1,5 +1,4 @@
 import qrcode
-from secrets import token_hex
 
 token = "URL"
 
@@ -17,4 +16,3 @@ def qrCodeGenerate():
     img.save('qrcode.png')
 
 qrCodeGenerate()
-
